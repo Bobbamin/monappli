@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+
+    <form action="ex22form.php" method="get">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+
+        <select name="pays[]" multiple>
+            <option value="fr">France</option>
+            <option value="es">Espagne</option>
+            <option value="al">Allemagne</option>
+        </select>
+
+        <input type="checkbox" name="interest[]" value="coding" >
+        <input type="checkbox" name="interest[]" value="music" >
+        <input type="checkbox" name="interest[]" value="dance" >
+
+        <input type="hidden" name="identifiant" value="12" >
+        <input type="submit" value="envoi" >
+
+
+
+
+
+
+
+    </form>
+
+    
+</body>
+</html>
